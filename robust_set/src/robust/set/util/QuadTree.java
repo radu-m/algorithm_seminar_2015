@@ -18,6 +18,7 @@ public class QuadTree  {
     private List<Point<Double>> Points;
     private HashMap<List<Boolean>,QuadTree> leafQuadTrees;
 
+
     public QuadTree(int level , List<Double> position, double length) 
     {
         this.level = level;

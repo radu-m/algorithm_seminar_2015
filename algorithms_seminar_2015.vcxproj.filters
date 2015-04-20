@@ -1,0 +1,2892 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="eigen-eigen-10219c95fe65\bench\basicbenchmark.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\bench\benchBlasGemm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\bench\benchCholesky.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\bench\benchEigenSolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\bench\benchFFT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\bench\benchGeometry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\bench\benchmark.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\bench\benchmarkSlice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\bench\benchmarkX.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\bench\benchmarkXcwise.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\bench\benchVecAdd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\bench\bench_gemm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\bench\bench_norm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\bench\bench_reverse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\bench\bench_sum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\bench\check_cache_queries.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\bench\eig33.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\bench\geometry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\bench\product_threshold.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\bench\quatmul.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\bench\quat_slerp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\bench\sparse_cholesky.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\bench\sparse_dense_product.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\bench\sparse_lu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\bench\sparse_product.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\bench\sparse_randomsetter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\bench\sparse_setter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\bench\sparse_transpose.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\bench\sparse_trisolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\bench\spmv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\bench\vdw_new.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\bench\btl\data\mean.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\bench\btl\data\regularize.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\bench\btl\data\smooth.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\bench\btl\libs\blas\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\bench\btl\libs\blitz\btl_blitz.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\bench\btl\libs\blitz\btl_tiny_blitz.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\bench\btl\libs\eigen2\btl_tiny_eigen2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\bench\btl\libs\eigen2\main_adv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\bench\btl\libs\eigen2\main_linear.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\bench\btl\libs\eigen2\main_matmat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\bench\btl\libs\eigen2\main_vecmat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\bench\btl\libs\eigen3\btl_tiny_eigen3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\bench\btl\libs\eigen3\main_adv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\bench\btl\libs\eigen3\main_linear.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\bench\btl\libs\eigen3\main_matmat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\bench\btl\libs\eigen3\main_vecmat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\bench\btl\libs\gmm\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\bench\btl\libs\mtl4\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\bench\btl\libs\stl\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\bench\btl\libs\tvmet\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\bench\btl\libs\ublas\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\bench\spbench\spbenchsolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\bench\spbench\sp_solver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\bench\spbench\test_sparseLU.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\blas\complex_double.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\blas\complex_single.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\blas\double.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\blas\single.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\blas\xerbla.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\demos\mandelbrot\mandelbrot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\demos\mix_eigen_and_c\binary_library.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\demos\mix_eigen_and_c\example.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\demos\opengl\camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\demos\opengl\gpuhelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\demos\opengl\icosphere.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\demos\opengl\quaternion_demo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\demos\opengl\trackball.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\tutorial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\examples\class_Block.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\examples\class_CwiseBinaryOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\examples\class_CwiseUnaryOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\examples\class_CwiseUnaryOp_ptrfun.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\examples\class_FixedBlock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\examples\class_FixedVectorBlock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\examples\class_VectorBlock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\examples\DenseBase_middleCols_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\examples\DenseBase_middleRows_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\examples\DenseBase_template_int_middleCols.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\examples\DenseBase_template_int_middleRows.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\examples\function_taking_eigenbase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\examples\function_taking_ref.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\examples\MatrixBase_cwise_const.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\examples\QuickStart_example.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\examples\QuickStart_example2_dynamic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\examples\QuickStart_example2_fixed.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\examples\TemplateKeyword_flexible.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\examples\TemplateKeyword_simple.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\examples\TutorialLinAlgComputeTwice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\examples\TutorialLinAlgExComputeSolveError.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\examples\TutorialLinAlgExSolveColPivHouseholderQR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\examples\TutorialLinAlgExSolveLDLT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\examples\TutorialLinAlgInverseDeterminant.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\examples\TutorialLinAlgRankRevealing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\examples\TutorialLinAlgSelfAdjointEigenSolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\examples\TutorialLinAlgSetThreshold.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\examples\TutorialLinAlgSVDSolve.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\examples\Tutorial_ArrayClass_accessors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\examples\Tutorial_ArrayClass_addition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\examples\Tutorial_ArrayClass_cwise_other.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\examples\Tutorial_ArrayClass_interop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\examples\Tutorial_ArrayClass_interop_matrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\examples\Tutorial_ArrayClass_mult.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\examples\Tutorial_BlockOperations_block_assignment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\examples\Tutorial_BlockOperations_colrow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\examples\Tutorial_BlockOperations_corner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\examples\Tutorial_BlockOperations_print_block.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\examples\Tutorial_BlockOperations_vector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\examples\Tutorial_PartialLU_solve.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_broadcast_1nn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple_rowwise.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_colwise.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_maxnorm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_reductions_bool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_reductions_norm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_rowwise.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_visitors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\examples\Tutorial_simple_example_dynamic_size.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\examples\Tutorial_simple_example_fixed_size.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\examples\tut_arithmetic_add_sub.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\examples\tut_arithmetic_dot_cross.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\examples\tut_arithmetic_matrix_mul.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\examples\tut_arithmetic_redux_basic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\examples\tut_arithmetic_scalar_mul_div.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\examples\tut_matrix_coefficient_accessors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\examples\tut_matrix_resize.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\examples\tut_matrix_resize_fixed_size.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\AngleAxis_mimic_euler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\class_FullPivLU.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\ColPivHouseholderQR_solve.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\ComplexEigenSolver_compute.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\ComplexEigenSolver_eigenvalues.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\ComplexEigenSolver_eigenvectors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\ComplexSchur_compute.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\ComplexSchur_matrixT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\ComplexSchur_matrixU.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Cwise_abs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Cwise_abs2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Cwise_acos.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Cwise_asin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Cwise_boolean_and.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Cwise_boolean_or.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Cwise_cos.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Cwise_cube.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Cwise_equal_equal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Cwise_exp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Cwise_greater.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Cwise_greater_equal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Cwise_inverse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Cwise_less.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Cwise_less_equal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Cwise_log.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Cwise_max.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Cwise_min.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Cwise_minus.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Cwise_minus_equal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Cwise_not_equal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Cwise_plus.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Cwise_plus_equal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Cwise_pow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Cwise_product.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Cwise_quotient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Cwise_sin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Cwise_slash_equal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Cwise_sqrt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Cwise_square.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Cwise_tan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Cwise_times_equal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\DenseBase_LinSpaced.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\DenseBase_LinSpaced_seq.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\DenseBase_setLinSpaced.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\DirectionWise_replicate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\DirectionWise_replicate_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\EigenSolver_compute.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\EigenSolver_EigenSolver_MatrixType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\EigenSolver_eigenvalues.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\EigenSolver_eigenvectors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\EigenSolver_pseudoEigenvectors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\FullPivHouseholderQR_solve.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\FullPivLU_image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\FullPivLU_kernel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\FullPivLU_solve.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\GeneralizedEigenSolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\HessenbergDecomposition_compute.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\HessenbergDecomposition_matrixH.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\HessenbergDecomposition_packedMatrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\HouseholderQR_householderQ.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\HouseholderQR_solve.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\HouseholderSequence_HouseholderSequence.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\IOFormat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\JacobiSVD_basic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Jacobi_makeGivens.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Jacobi_makeJacobi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\LLT_example.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\LLT_solve.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Map_general_stride.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Map_inner_stride.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Map_outer_stride.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Map_placement_new.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Map_simple.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_adjoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_all.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_applyOnTheLeft.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_applyOnTheRight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_array.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_array_const.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_asDiagonal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_block_int_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_block_int_int_int_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_bottomLeftCorner_int_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_bottomRightCorner_int_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_bottomRows_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_cast.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_col.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_colwise.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_computeInverseAndDetWithCheck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_computeInverseWithCheck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_cwiseAbs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_cwiseAbs2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_cwiseEqual.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_cwiseInverse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_cwiseMax.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_cwiseMin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_cwiseNotEqual.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_cwiseProduct.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_cwiseQuotient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_cwiseSqrt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_diagonal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_diagonal_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_diagonal_template_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_eigenvalues.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_end_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_eval.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_extract.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_fixedBlock_int_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_identity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_identity_int_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_inverse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_isDiagonal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_isIdentity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_isOnes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_isOrthogonal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_isUnitary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_isZero.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_leftCols_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_marked.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_noalias.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_ones.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_ones_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_ones_int_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_operatorNorm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_part.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_prod.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_random.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_random_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_random_int_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_replicate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_replicate_int_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_reverse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_rightCols_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_row.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_rowwise.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_segment_int_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_select.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_set.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_setIdentity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_setOnes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_setRandom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_setZero.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_start_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_template_int_bottomRows.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_template_int_end.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_template_int_int_block_int_int_int_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_template_int_int_bottomLeftCorner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_template_int_int_bottomLeftCorner_int_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_template_int_int_bottomRightCorner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_template_int_int_bottomRightCorner_int_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_template_int_int_topLeftCorner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_template_int_int_topLeftCorner_int_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_template_int_int_topRightCorner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_template_int_int_topRightCorner_int_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_template_int_leftCols.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_template_int_rightCols.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_template_int_segment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_template_int_start.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_template_int_topRows.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_topLeftCorner_int_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_topRightCorner_int_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_topRows_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_transpose.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_zero.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_zero_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\MatrixBase_zero_int_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Matrix_resize_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Matrix_resize_int_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Matrix_resize_int_NoChange.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Matrix_resize_NoChange_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Matrix_setConstant_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Matrix_setConstant_int_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Matrix_setIdentity_int_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Matrix_setOnes_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Matrix_setOnes_int_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Matrix_setRandom_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Matrix_setRandom_int_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Matrix_setZero_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Matrix_setZero_int_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\PartialPivLU_solve.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\PartialRedux_count.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\PartialRedux_maxCoeff.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\PartialRedux_minCoeff.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\PartialRedux_norm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\PartialRedux_prod.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\PartialRedux_squaredNorm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\PartialRedux_sum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\RealQZ_compute.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\RealSchur_compute.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\RealSchur_RealSchur_MatrixType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\SelfAdjointEigenSolver_compute_MatrixType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\SelfAdjointEigenSolver_compute_MatrixType2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\SelfAdjointEigenSolver_eigenvalues.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\SelfAdjointEigenSolver_eigenvectors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\SelfAdjointEigenSolver_operatorInverseSqrt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\SelfAdjointEigenSolver_operatorSqrt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\SelfAdjointEigenSolver_SelfAdjointEigenSolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\SelfAdjointEigenSolver_SelfAdjointEigenSolver_MatrixType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\SelfAdjointEigenSolver_SelfAdjointEigenSolver_MatrixType2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\SelfAdjointView_eigenvalues.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\SelfAdjointView_operatorNorm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\TopicAliasing_block.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\TopicAliasing_block_correct.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\TopicAliasing_cwise.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\TopicAliasing_mult1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\TopicAliasing_mult2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\TopicAliasing_mult3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\TopicStorageOrders_example.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Tridiagonalization_compute.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Tridiagonalization_decomposeInPlace.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Tridiagonalization_diagonal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Tridiagonalization_householderCoefficients.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Tridiagonalization_packedMatrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Tridiagonalization_Tridiagonalization_MatrixType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Tutorial_AdvancedInitialization_Block.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Tutorial_AdvancedInitialization_CommaTemporary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Tutorial_AdvancedInitialization_Join.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Tutorial_AdvancedInitialization_LinSpaced.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Tutorial_AdvancedInitialization_ThreeWays.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Tutorial_AdvancedInitialization_Zero.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Tutorial_commainit_01.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Tutorial_commainit_01b.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Tutorial_commainit_02.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Tutorial_Map_rowmajor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Tutorial_Map_using.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Tutorial_solve_matrix_inverse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Tutorial_solve_multiple_rhs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Tutorial_solve_reuse_decomposition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Tutorial_solve_singular.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Tutorial_solve_triangular.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Tutorial_solve_triangular_inplace.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\tut_arithmetic_redux_minmax.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\tut_arithmetic_transpose_aliasing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\tut_arithmetic_transpose_conjugate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\tut_arithmetic_transpose_inplace.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\tut_matrix_assignment_resizing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\snippets\Vectorwise_reverse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\special_examples\Tutorial_sparse_example.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\doc\special_examples\Tutorial_sparse_example_details.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\failtest\block_nonconst_ctor_on_const_xpr_0.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\failtest\block_nonconst_ctor_on_const_xpr_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\failtest\block_nonconst_ctor_on_const_xpr_2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\failtest\block_on_const_type_actually_const_0.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\failtest\block_on_const_type_actually_const_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\failtest\const_qualified_block_method_retval_0.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\failtest\const_qualified_block_method_retval_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\failtest\const_qualified_diagonal_method_retval.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\failtest\const_qualified_transpose_method_retval.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\failtest\diagonal_nonconst_ctor_on_const_xpr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\failtest\diagonal_on_const_type_actually_const.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\failtest\failtest_sanity_check.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\failtest\map_nonconst_ctor_on_const_ptr_0.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\failtest\map_nonconst_ctor_on_const_ptr_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\failtest\map_nonconst_ctor_on_const_ptr_2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\failtest\map_nonconst_ctor_on_const_ptr_3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\failtest\map_nonconst_ctor_on_const_ptr_4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\failtest\map_on_const_type_actually_const_0.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\failtest\map_on_const_type_actually_const_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\failtest\ref_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\failtest\ref_2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\failtest\ref_3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\failtest\ref_4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\failtest\ref_5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\failtest\transpose_nonconst_ctor_on_const_xpr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\failtest\transpose_on_const_type_actually_const.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\lapack\cholesky.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\lapack\complex_double.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\lapack\complex_single.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\lapack\double.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\lapack\eigenvalues.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\lapack\lu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\lapack\single.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\scripts\eigen_gen_credits.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\adjoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\array.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\array_for_matrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\array_replicate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\array_reverse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\bandmatrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\basicstuff.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\bicgstab.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\block.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\cholesky.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\cholmod_support.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\commainitializer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\conjugate_gradient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\conservative_resize.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\corners.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\cwiseop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\denseLM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\determinant.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\diagonal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\diagonalmatrices.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\dontalign.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\dynalloc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\eigen2support.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\eigensolver_complex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\eigensolver_generalized_real.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\eigensolver_generic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\eigensolver_selfadjoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\exceptions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\first_aligned.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\geo_alignedbox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\geo_eulerangles.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\geo_homogeneous.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\geo_hyperplane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\geo_orthomethods.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\geo_parametrizedline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\geo_quaternion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\geo_transformations.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\hessenberg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\householder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\integer_types.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\inverse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\jacobi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\jacobisvd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\linearstructure.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\lu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\mapped_matrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\mapstaticmethods.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\mapstride.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\meta.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\metis_support.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\miscmatrices.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\mixingtypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\nesting_ops.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\nomalloc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\nullary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\packetmath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\pardiso_support.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\pastix_support.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\permutationmatrices.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\prec_inverse_4x4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\product_extra.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\product_large.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\product_mmtr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\product_notemporary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\product_selfadjoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\product_small.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\product_symm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\product_syrk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\product_trmm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\product_trmv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\product_trsolve.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\qr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\qr_colpivoting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\qr_fullpivoting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\qtvector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\real_qz.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\redux.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\ref.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\resize.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\schur_complex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\schur_real.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\selfadjoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\simplicial_cholesky.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\sizeof.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\sizeoverflow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\smallvectors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\sparseLM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\sparselu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\sparseqr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\sparse_basic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\sparse_permutations.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\sparse_product.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\sparse_solvers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\sparse_vector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\special_numbers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\spqr_support.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\stable_norm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\stddeque.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\stdlist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\stdvector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\stdvector_overload.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\superlu_support.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\swap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\triangular.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\umeyama.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\umfpack_support.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\unalignedassert.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\unalignedcount.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\upperbidiagonalization.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\vectorization_logic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\vectorwiseop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\visitor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\zerosized.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\eigen2\eigen2_adjoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\eigen2\eigen2_alignedbox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\eigen2\eigen2_array.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\eigen2\eigen2_basicstuff.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\eigen2\eigen2_bug_132.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\eigen2\eigen2_cholesky.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\eigen2\eigen2_commainitializer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\eigen2\eigen2_cwiseop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\eigen2\eigen2_determinant.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\eigen2\eigen2_dynalloc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\eigen2\eigen2_eigensolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\eigen2\eigen2_first_aligned.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\eigen2\eigen2_geometry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\eigen2\eigen2_geometry_with_eigen2_prefix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\eigen2\eigen2_hyperplane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\eigen2\eigen2_inverse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\eigen2\eigen2_linearstructure.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\eigen2\eigen2_lu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\eigen2\eigen2_map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\eigen2\eigen2_meta.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\eigen2\eigen2_miscmatrices.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\eigen2\eigen2_mixingtypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\eigen2\eigen2_newstdvector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\eigen2\eigen2_nomalloc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\eigen2\eigen2_packetmath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\eigen2\eigen2_parametrizedline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\eigen2\eigen2_prec_inverse_4x4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\eigen2\eigen2_product_large.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\eigen2\eigen2_product_small.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\eigen2\eigen2_qr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\eigen2\eigen2_qtvector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\eigen2\eigen2_regression.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\eigen2\eigen2_sizeof.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\eigen2\eigen2_smallvectors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\eigen2\eigen2_sparse_basic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\eigen2\eigen2_sparse_product.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\eigen2\eigen2_sparse_solvers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\eigen2\eigen2_sparse_vector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\eigen2\eigen2_stdvector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\eigen2\eigen2_submatrices.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\eigen2\eigen2_sum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\eigen2\eigen2_svd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\eigen2\eigen2_swap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\eigen2\eigen2_triangular.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\eigen2\eigen2_unalignedassert.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\test\eigen2\eigen2_visitor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\unsupported\bench\bench_svd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\unsupported\doc\examples\BVH_Example.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\unsupported\doc\examples\FFT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\unsupported\doc\examples\MatrixExponential.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\unsupported\doc\examples\MatrixFunction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\unsupported\doc\examples\MatrixLogarithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\unsupported\doc\examples\MatrixPower.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\unsupported\doc\examples\MatrixPower_optimal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\unsupported\doc\examples\MatrixSine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\unsupported\doc\examples\MatrixSinh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\unsupported\doc\examples\MatrixSquareRoot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\unsupported\doc\examples\PolynomialSolver1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\unsupported\doc\examples\PolynomialUtils1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\unsupported\test\alignedvector3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\unsupported\test\autodiff.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\unsupported\test\bdcsvd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\unsupported\test\BVH.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\unsupported\test\dgmres.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\unsupported\test\FFT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\unsupported\test\FFTW.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\unsupported\test\forward_adolc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\unsupported\test\gmres.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\unsupported\test\jacobisvd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\unsupported\test\kronecker_product.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\unsupported\test\levenberg_marquardt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\unsupported\test\matrix_exponential.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\unsupported\test\matrix_function.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\unsupported\test\matrix_power.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\unsupported\test\matrix_square_root.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\unsupported\test\minres.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\unsupported\test\mpreal_support.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\unsupported\test\NonLinearOptimization.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\unsupported\test\NumericalDiff.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\unsupported\test\openglsupport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\unsupported\test\polynomialsolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\unsupported\test\polynomialutils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\unsupported\test\sparse_extra.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eigen-eigen-10219c95fe65\unsupported\test\splines.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="eigen-eigen-10219c95fe65\bench\basicbenchmark.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\bench\BenchSparseUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\bench\BenchTimer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\bench\BenchUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\bench\btl\generic_bench\utils\utilities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\bench\btl\libs\blas\blas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\bench\btl\libs\blas\c_interface_base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\bench\spbench\spbenchsolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\bench\spbench\spbenchstyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\blas\BandTriangularSolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\blas\common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\blas\GeneralRank1Update.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\blas\level1_cplx_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\blas\level1_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\blas\level1_real_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\blas\level2_cplx_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\blas\level2_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\blas\level2_real_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\blas\level3_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\blas\PackedSelfadjointProduct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\blas\PackedTriangularMatrixVector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\blas\PackedTriangularSolverVector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\blas\Rank2Update.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\demos\mandelbrot\mandelbrot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\demos\mix_eigen_and_c\binary_library.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\demos\opengl\camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\demos\opengl\gpuhelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\demos\opengl\icosphere.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\demos\opengl\quaternion_demo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\demos\opengl\trackball.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\cholesky\LDLT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\cholesky\LLT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\cholesky\LLT_MKL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\cholmodsupport\CholmodSupport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\Array.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\ArrayBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\ArrayWrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\Assign.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\Assign_MKL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\BandMatrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\Block.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\BooleanRedux.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\CommaInitializer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\CoreIterators.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\CwiseBinaryOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\CwiseNullaryOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\CwiseUnaryOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\CwiseUnaryView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\DenseBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\DenseCoeffsBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\DenseStorage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\Diagonal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\DiagonalMatrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\DiagonalProduct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\Dot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\EigenBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\Flagged.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\ForceAlignedAccess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\Functors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\Fuzzy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\GeneralProduct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\GenericPacketMath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\GlobalFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\IO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\Map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\MapBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\MathFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\Matrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\MatrixBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\NestByValue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\NoAlias.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\NumTraits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\PermutationMatrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\PlainObjectBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\ProductBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\Random.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\Redux.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\Ref.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\Replicate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\ReturnByValue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\Reverse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\Select.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\SelfAdjointView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\SelfCwiseBinaryOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\SolveTriangular.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\StableNorm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\Stride.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\Swap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\Transpose.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\Transpositions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\TriangularMatrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\VectorBlock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\VectorwiseOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\Visitor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\arch\altivec\Complex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\arch\altivec\PacketMath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\arch\default\Settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\arch\neon\Complex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\arch\neon\PacketMath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\arch\sse\Complex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\arch\sse\MathFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\arch\sse\PacketMath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\products\CoeffBasedProduct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\products\GeneralBlockPanelKernel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\products\GeneralMatrixMatrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\products\GeneralMatrixMatrixTriangular.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\products\GeneralMatrixMatrixTriangular_MKL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\products\GeneralMatrixMatrix_MKL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\products\GeneralMatrixVector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\products\GeneralMatrixVector_MKL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\products\Parallelizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\products\SelfadjointMatrixMatrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\products\SelfadjointMatrixMatrix_MKL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\products\SelfadjointMatrixVector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\products\SelfadjointMatrixVector_MKL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\products\SelfadjointProduct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\products\SelfadjointRank2Update.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\products\TriangularMatrixMatrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\products\TriangularMatrixMatrix_MKL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\products\TriangularMatrixVector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\products\TriangularMatrixVector_MKL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\products\TriangularSolverMatrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\products\TriangularSolverMatrix_MKL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\products\TriangularSolverVector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\util\BlasUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\util\Constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\util\DisableStupidWarnings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\util\ForwardDeclarations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\util\Macros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\util\Memory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\util\Meta.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\util\MKL_support.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\util\NonMPL2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\util\ReenableStupidWarnings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\util\StaticAssert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\core\util\XprHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\eigen2support\Block.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\eigen2support\Cwise.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\eigen2support\CwiseOperators.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\eigen2support\Lazy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\eigen2support\LeastSquares.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\eigen2support\LU.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\eigen2support\Macros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\eigen2support\MathFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\eigen2support\Memory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\eigen2support\Meta.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\eigen2support\Minor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\eigen2support\QR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\eigen2support\SVD.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\eigen2support\TriangularSolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\eigen2support\VectorBlock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\eigen2support\geometry\AlignedBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\eigen2support\geometry\All.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\eigen2support\geometry\AngleAxis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\eigen2support\geometry\Hyperplane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\eigen2support\geometry\ParametrizedLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\eigen2support\geometry\Quaternion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\eigen2support\geometry\Rotation2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\eigen2support\geometry\RotationBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\eigen2support\geometry\Scaling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\eigen2support\geometry\Transform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\eigen2support\geometry\Translation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\eigenvalues\ComplexEigenSolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\eigenvalues\ComplexSchur.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\eigenvalues\ComplexSchur_MKL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\eigenvalues\EigenSolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\eigenvalues\GeneralizedEigenSolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\eigenvalues\GeneralizedSelfAdjointEigenSolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\eigenvalues\HessenbergDecomposition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\eigenvalues\MatrixBaseEigenvalues.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\eigenvalues\RealQZ.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\eigenvalues\RealSchur.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\eigenvalues\RealSchur_MKL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\eigenvalues\SelfAdjointEigenSolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\eigenvalues\SelfAdjointEigenSolver_MKL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\eigenvalues\Tridiagonalization.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\geometry\AlignedBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\geometry\AngleAxis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\geometry\EulerAngles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\geometry\Homogeneous.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\geometry\Hyperplane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\geometry\OrthoMethods.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\geometry\ParametrizedLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\geometry\Quaternion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\geometry\Rotation2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\geometry\RotationBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\geometry\Scaling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\geometry\Transform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\geometry\Translation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\geometry\Umeyama.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\geometry\arch\Geometry_SSE.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\householder\BlockHouseholder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\householder\Householder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\householder\HouseholderSequence.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\iterativelinearsolvers\BasicPreconditioners.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\iterativelinearsolvers\BiCGSTAB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\iterativelinearsolvers\ConjugateGradient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\iterativelinearsolvers\IncompleteLUT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\iterativelinearsolvers\IterativeSolverBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\jacobi\Jacobi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\lu\Determinant.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\lu\FullPivLU.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\lu\Inverse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\lu\PartialPivLU.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\lu\PartialPivLU_MKL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\lu\arch\Inverse_SSE.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\metissupport\MetisSupport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\misc\blas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\misc\Image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\misc\Kernel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\misc\Solve.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\misc\SparseSolve.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\orderingmethods\Amd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\orderingmethods\Eigen_Colamd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\orderingmethods\Ordering.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\pardisosupport\PardisoSupport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\pastixsupport\PaStiXSupport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\plugins\ArrayCwiseBinaryOps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\plugins\ArrayCwiseUnaryOps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\plugins\BlockMethods.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\plugins\CommonCwiseBinaryOps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\plugins\CommonCwiseUnaryOps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\plugins\MatrixCwiseBinaryOps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\plugins\MatrixCwiseUnaryOps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\qr\ColPivHouseholderQR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\qr\ColPivHouseholderQR_MKL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\qr\FullPivHouseholderQR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\qr\HouseholderQR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\qr\HouseholderQR_MKL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\sparsecholesky\SimplicialCholesky.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\sparsecholesky\SimplicialCholesky_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\sparsecore\AmbiVector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\sparsecore\CompressedStorage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\sparsecore\ConservativeSparseSparseProduct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\sparsecore\MappedSparseMatrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\sparsecore\SparseBlock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\sparsecore\SparseColEtree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\sparsecore\SparseCwiseBinaryOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\sparsecore\SparseCwiseUnaryOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\sparsecore\SparseDenseProduct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\sparsecore\SparseDiagonalProduct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\sparsecore\SparseDot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\sparsecore\SparseFuzzy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\sparsecore\SparseMatrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\sparsecore\SparseMatrixBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\sparsecore\SparsePermutation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\sparsecore\SparseProduct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\sparsecore\SparseRedux.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\sparsecore\SparseSelfAdjointView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\sparsecore\SparseSparseProductWithPruning.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\sparsecore\SparseTranspose.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\sparsecore\SparseTriangularView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\sparsecore\SparseUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\sparsecore\SparseVector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\sparsecore\SparseView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\sparsecore\TriangularSolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\sparselu\SparseLU.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\sparselu\SparseLUImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\sparselu\SparseLU_column_bmod.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\sparselu\SparseLU_column_dfs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\sparselu\SparseLU_copy_to_ucol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\sparselu\SparseLU_gemm_kernel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\sparselu\SparseLU_heap_relax_snode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\sparselu\SparseLU_kernel_bmod.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\sparselu\SparseLU_Memory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\sparselu\SparseLU_panel_bmod.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\sparselu\SparseLU_panel_dfs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\sparselu\SparseLU_pivotL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\sparselu\SparseLU_pruneL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\sparselu\SparseLU_relax_snode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\sparselu\SparseLU_Structs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\sparselu\SparseLU_SupernodalMatrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\sparselu\SparseLU_Utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\sparseqr\SparseQR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\spqrsupport\SuiteSparseQRSupport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\stlsupport\details.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\stlsupport\StdDeque.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\stlsupport\StdList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\stlsupport\StdVector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\superlusupport\SuperLUSupport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\svd\JacobiSVD.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\svd\JacobiSVD_MKL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\svd\UpperBidiagonalization.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\eigen\src\umfpacksupport\UmfPackSupport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\lapack\lapack_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\test\main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\test\product.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\test\sparse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\test\sparse_solver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\test\eigen2\gsl_helper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\test\eigen2\main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\test\eigen2\product.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\test\eigen2\sparse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\eigen\src\autodiff\AutoDiffJacobian.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\eigen\src\autodiff\AutoDiffScalar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\eigen\src\autodiff\AutoDiffVector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\eigen\src\bvh\BVAlgorithms.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\eigen\src\bvh\KdBVH.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\eigen\src\eigenvalues\ArpackSelfAdjointEigenSolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\eigen\src\fft\ei_fftw_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\eigen\src\fft\ei_kissfft_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\eigen\src\iterativesolvers\ConstrainedConjGrad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\eigen\src\iterativesolvers\DGMRES.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\eigen\src\iterativesolvers\GMRES.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\eigen\src\iterativesolvers\IncompleteCholesky.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\eigen\src\iterativesolvers\IncompleteLU.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\eigen\src\iterativesolvers\IterationController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\eigen\src\iterativesolvers\MINRES.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\eigen\src\iterativesolvers\Scaling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\eigen\src\kroneckerproduct\KroneckerTensorProduct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\eigen\src\levenbergmarquardt\LevenbergMarquardt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\eigen\src\levenbergmarquardt\LMcovar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\eigen\src\levenbergmarquardt\LMonestep.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\eigen\src\levenbergmarquardt\LMpar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\eigen\src\levenbergmarquardt\LMqrsolv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\eigen\src\matrixfunctions\MatrixExponential.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\eigen\src\matrixfunctions\MatrixFunction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\eigen\src\matrixfunctions\MatrixFunctionAtomic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\eigen\src\matrixfunctions\MatrixLogarithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\eigen\src\matrixfunctions\MatrixPower.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\eigen\src\matrixfunctions\MatrixSquareRoot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\eigen\src\matrixfunctions\StemFunction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\eigen\src\morevectorization\MathFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\eigen\src\nonlinearoptimization\chkder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\eigen\src\nonlinearoptimization\covar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\eigen\src\nonlinearoptimization\dogleg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\eigen\src\nonlinearoptimization\fdjac1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\eigen\src\nonlinearoptimization\HybridNonLinearSolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\eigen\src\nonlinearoptimization\LevenbergMarquardt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\eigen\src\nonlinearoptimization\lmpar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\eigen\src\nonlinearoptimization\qrsolv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\eigen\src\nonlinearoptimization\r1mpyq.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\eigen\src\nonlinearoptimization\r1updt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\eigen\src\nonlinearoptimization\rwupdt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\eigen\src\numericaldiff\NumericalDiff.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\eigen\src\polynomials\Companion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\eigen\src\polynomials\PolynomialSolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\eigen\src\polynomials\PolynomialUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\eigen\src\skyline\SkylineInplaceLU.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\eigen\src\skyline\SkylineMatrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\eigen\src\skyline\SkylineMatrixBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\eigen\src\skyline\SkylineProduct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\eigen\src\skyline\SkylineStorage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\eigen\src\skyline\SkylineUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\eigen\src\sparseextra\BlockOfDynamicSparseMatrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\eigen\src\sparseextra\DynamicSparseMatrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\eigen\src\sparseextra\MarketIO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\eigen\src\sparseextra\MatrixMarketIterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\eigen\src\sparseextra\RandomSetter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\eigen\src\splines\Spline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\eigen\src\splines\SplineFitting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\eigen\src\splines\SplineFwd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\eigen\src\svd\BDCSVD.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\eigen\src\svd\JacobiSVD.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\eigen\src\svd\SVDBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\test\matrix_functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\test\svd_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigen-eigen-10219c95fe65\unsupported\test\mpreal\mpreal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".idea\description.html" />
+  </ItemGroup>
+</Project>

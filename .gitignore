@@ -48,3 +48,7 @@ Temporary Items
 # =========================
 .idea
 *.iml
+*.unsuccessfulbuild
+*.lastbuildstate
+*.log
+*.tlog
