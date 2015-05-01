@@ -95,11 +95,13 @@ public class ReadMatricesFile {
             }
             this.matrixDim[0] = this.mergeIntoPoints;//  mergedVectors.size() / matrixDim[1];
             this.matrixDim[1] = vectors.get(0).size() * mvSize;
+            mergedVectors.trimToSize();
             return mergedVectors;
         }
 
         this.matrixDim[0] = vectors.size(); // vectors.get(0).size() / matrixDim[1];
         this.matrixDim[1] = vectors.get(0).size();
+        vectors.trimToSize();
         return vectors;
     }
 

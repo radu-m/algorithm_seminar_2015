@@ -22,23 +22,39 @@ public class DimReduceRandom {
     protected int[] originalMatrixDim; // [0: number of vectors, 1: length of vector]
     protected Matrix projMatrix;
 
+    ///
+
     public DimReduceRandom(String dataFilePath) {
         rmfPath = dataFilePath;
+
         // get the data
-        readMnistFromMatricesFile();
+        this.originalMatrixDim = readMnistFromMatricesFile();
+        System.out.println("originalMatrixDim " + this.originalMatrixDim[0] + ", " + this.originalMatrixDim[1]);
+
         // calculate minDim for dataSet
         JohnsonLindenstrauss jl = new JohnsonLindenstrauss(vectors.size());
         System.out.println("JL for " + vectors.size() + " points and err +- " + jl.getErrorMargin() + " : " + jl.minDim());
 
-        projMatrix = RndProjMatrix.getProjectionMatrix(jl.minDim(), originalMatrixDim[1]);
+        //////
+        projMatrix = RndProjMatrix.getProjectionMatrix(jl.minDim(), originalMatrixDim[0]); // A = rand(Normal(0, 1 / sqrt(k)), k, d)
         System.out.println("projMatrix rows " + projMatrix.getColumnDimension());
         System.out.println("projMatrix cols " + projMatrix.getRowDimension());
+//        System.out.println("projMatrix rank: " + projMatrix.rank());
 
+        //////
         Matrix vMatrix = new Matrix(arrayListToDouble2D(vectors), originalMatrixDim[0], originalMatrixDim[1]);
         System.out.println("vMatrix rows " + vMatrix.getColumnDimension());
         System.out.println("vMatrix cols " + vMatrix.getRowDimension());
+//        System.out.println("vMatrix rank: " + vMatrix.rank());
 
-        Matrix reducedMatrix = projMatrix.arrayTimes(vMatrix);
+        //////
+//        Matrix vMatrixT = vMatrix.transpose();
+//        System.out.println("vMatrixT rows " + vMatrixT.getColumnDimension());
+//        System.out.println("vMatrixT cols " + vMatrixT.getRowDimension());
+//        System.out.println("vMatrix rank: " + vMatrix.rank());
+
+        ////
+        Matrix reducedMatrix = projMatrix.times(vMatrix);
         System.out.println("reducedMatrix rows " + reducedMatrix.getColumnDimension());
         System.out.println("reducedMatrix cols " + reducedMatrix.getRowDimension());
     }
@@ -51,7 +67,7 @@ public class DimReduceRandom {
         return dd;
     }
 
-    public void readMnistFromMatricesFile() {
+    public int[] readMnistFromMatricesFile() {
         ReadMatricesFile rmf;
         if (maxRecords > 0) {
             rmf = new ReadMatricesFile(rmfPath, maxRecords);
@@ -63,11 +79,12 @@ public class DimReduceRandom {
             rmf.setMergeIntoPoints(mergeRecordsIntoPoints);
         }
         this.vectors = rmf.readAsVector();
-        this.originalMatrixDim = rmf.getMatrixDim();
+//        this.originalMatrixDim = rmf.getMatrixDim();
 
-        System.out.println("originalMatrixDim " + originalMatrixDim[0] + ", " + originalMatrixDim[1]);
         System.out.println("total of points = " + vectors.size());
         System.out.println("point dimensions = " + vectors.get(0).size());
+
+        return rmf.getMatrixDim();
     }
 
     public void readMnistFromMatlab() {

@@ -30,3 +30,19 @@ public class JohnsonLindenstrauss {
         return errorMargin;
     }
 }
+
+/**
+
+ using Distributions
+
+ function projection(
+ X::Matrix,
+ ε::Real,
+ k::Integer = mindim(size(X, 2), ε)
+ )
+ d, n = size(X)
+ A = rand(Normal(0, 1 / sqrt(k)), k, d)
+ return A, k, A * X
+ end
+
+ */
