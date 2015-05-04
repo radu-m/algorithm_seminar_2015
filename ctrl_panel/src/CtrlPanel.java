@@ -19,7 +19,7 @@ public class CtrlPanel {
     /***************************/
     public static void main(String[] param){
         // run DimReduce with JohnsonLindenstrauss with matrix file
-//        DimReduceRandom.setMaxRecords(300); // optional (default: number of matrices in file)
+        DimReduceRandom.setMaxRecords(3000); // optional (default: number of matrices in file)
 //        DimReduceRandom.setMergeRecordsIntoPoints(3); // optional (default: number of matrices in file)
 //        DimReduceRandom.setJLprecision(0.01); // optional (default: 0.1)
         DimReduceRandom drr = new DimReduceRandom(dataSetPath);

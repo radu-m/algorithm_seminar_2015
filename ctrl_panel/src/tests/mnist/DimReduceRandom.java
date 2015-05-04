@@ -1,6 +1,7 @@
 package tests.mnist;
 
 import Jama.Matrix;
+import Jama.SingularValueDecomposition;
 import raw.images.ReadMatricesFile;
 import raw.images.ReadMnist;
 import rnd.JohnsonLindenstrauss;
@@ -57,14 +58,49 @@ public class DimReduceRandom {
         Matrix reducedMatrix = projMatrix.times(vMatrix);
         System.out.println("reducedMatrix rows " + reducedMatrix.getColumnDimension());
         System.out.println("reducedMatrix cols " + reducedMatrix.getRowDimension());
+
+//        double[][] d = mMultimplication(projMatrix.getArray(), vMatrix.getArray());
+//        double[][] a = new double[][]();
+//        double[][] d = mMultimplication(a,b);
+
+//        System.out.println(d.length);
+//        System.out.println(d[0].length);
+
+        /// SVD
+//        SingularValueDecomposition svd = new
+
+
+
+        /// CUR
+
+
     }
 
-    private static double[][] arrayListToDouble2D(ArrayList<ArrayList<Double>> vectors){
+    private static double[][] arrayListToDouble2D(ArrayList<ArrayList<Double>> vectors) {
         double[][] dd = new double[vectors.size()][];
         for (int i = 0; i < vectors.size(); i++) {
             dd[i] = vectors.get(i).stream().mapToDouble(d -> d).toArray();
         }
         return dd;
+    }
+
+    private double[][] mMultimplication(double[][] A, double[][] B) throws IllegalArgumentException {
+        if (A[0].length != B.length) {
+            throw new IllegalArgumentException();
+        }
+
+        double[][] C = new double[A.length][B[0].length];
+        double inter;
+        for (int i = 0; i < A.length; i++) {
+            for (int j = 0; j < B[0].length; j++) {
+                double tmp = 0.0;
+                for (int k = 0; k < A[0].length; k++) {
+                    tmp += A[i][k] * B[k][j];
+                }
+                C[i][j] = tmp;
+            }
+        }
+        return C;
     }
 
     public int[] readMnistFromMatricesFile() {
